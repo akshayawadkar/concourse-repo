@@ -7,6 +7,6 @@ image_resource:
     repository: busybox
 
 run:
-  path: python main.py
+  path: task.sh
   
   
