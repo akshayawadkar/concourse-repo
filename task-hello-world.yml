@@ -1,12 +1,4 @@
 ---
-
-resources:
-- name: concourse-repo
-  type: git
-  source:
-    uri: https://github.com/akshayawadkar/concourse-repo.git
-    branch: master
-
 platform: linux
 
 image_resource:
@@ -15,5 +7,6 @@ image_resource:
     repository: busybox
 
 run:
-  path: python
-  args: [concourse-repo/main.py]
+  path: python main.py
+  
+  
