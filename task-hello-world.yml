@@ -7,5 +7,5 @@ image_resource:
     repository: busybox
 
 run:
-  path: echo
-  args: ["hello world"]
+  path: python
+  args: [main.py]
